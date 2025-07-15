@@ -1,0 +1,56 @@
+/*.electrolize-regular {
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Electrolize", sans-serif;
+  background-color: #6c87e9;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #ff00ae;
+  text-shadow: 3px 3px 5px black;
+}
+
+
+a:link {
+    color: #ff00ae; /* Change this to your desired color, e.g., 'red', '#FF0000', 'rgb(255, 0, 0)' */
+    text-decoration: underline; /* Removes the default underline */
+}
+
+a:visited {
+    color: #ff00ae; /* A lighter gray for visited links, or choose another color */
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #000000;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+
